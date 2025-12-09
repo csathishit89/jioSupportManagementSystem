@@ -1,10 +1,10 @@
-def supportDashboard(st, allClientsDashboardCount):
+def supportDashboard(st, allClientsDashboardCountFetch):
     total_count = 0
     open_count = 0
     closed_count = 0
     resolvedRate = 0
     
-    recordCount = allClientsDashboardCount.allClientsDashboardCount()
+    recordCount = allClientsDashboardCountFetch.allClientsDashboardCountFetch()
     open_count = recordCount[0]
     closed_count = recordCount[1]
     total_count = recordCount[2]
