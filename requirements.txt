@@ -1,0 +1,4 @@
+pip install streamlit-js-eval
+pip install psycopg2-binary
+python -m venv clientEnv
+pip install streamlit
