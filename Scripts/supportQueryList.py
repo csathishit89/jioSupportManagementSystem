@@ -2,7 +2,8 @@ import clientQueriesListFetch
 import clientHistoryQueriesListFetch
 def supportQueryList(st, updateQueryStatus, pd):
     searchInput = None
-    clientsQueriesListFetch = clientQueriesListFetch.clientQueriesListFetch()
+    
+    clientsQueriesListFetch = clientQueriesListFetch.clientQueriesListFetch('All')
     data_records = clientsQueriesListFetch
     
     clientsHistoryQueriesListFetch = clientHistoryQueriesListFetch.clientHistoryQueriesListFetch()
@@ -23,10 +24,36 @@ def supportQueryList(st, updateQueryStatus, pd):
     styled_df_filtered = None
     
     
-    col1, col2 = st.columns([1, 45])
+    col1, col2, col3 = st.columns([1, 35, 15])
     with col2:
         st.header("Client Queries List")
-    
+        
+    with col3:
+        # 1. Define the list of options for the dropdown
+        options = ["All", "Open", "Closed"]
+
+        # 2. Create the selectbox UI element
+        # st.selectbox(label, options, index=0, format_func=str)
+        selected_option = st.selectbox(
+            "**Select the Status:**",
+            options,                   
+            index=0                    
+        )
+
+        # 4. You can use the selected_option variable to trigger other logic or display different content
+        if selected_option == "All":
+            clientsQueriesListFetch = clientQueriesListFetch.clientQueriesListFetch(selected_option)
+            data_records = clientsQueriesListFetch
+            df = pd.DataFrame(data_records, columns=column_names)
+        if selected_option == "Open":
+            clientsQueriesListFetch = clientQueriesListFetch.clientQueriesListFetch(selected_option)
+            data_records = clientsQueriesListFetch
+            df = pd.DataFrame(data_records, columns=column_names)
+        elif selected_option == "Closed":
+            clientsQueriesListFetch = clientQueriesListFetch.clientQueriesListFetch(selected_option)
+            data_records = clientsQueriesListFetch
+            df = pd.DataFrame(data_records, columns=column_names)
+        
     col1, col2 = st.columns([1, 45])
     with col2:
         tab1, tab2 = st.tabs(["New Queries", "Old Queries"])
@@ -130,34 +157,6 @@ def supportQueryList(st, updateQueryStatus, pd):
                             st.error('Failed to submit Query {isClientQueryUpdated}')
                 else:
                     st.info("This query is already Closed.")
-
-            # if "Select" in edited_df.columns:
-            #     selected = edited_df[edited_df["Select"] == True]
-            #     st.subheader("Selected Query")
-            #     st.write(selected)
-                
-            #     # Extract selected row
-            #     row = selected.iloc[0]
-            #     query_id = row["Query ID"]
-            #     current_status = row["Status"]
-                
-            #     if current_status == "Open":
-            #         if st.button("Mark as Closed"):
-            #             # Update in dataframe
-            #             edited_df.loc[edited_df["Query ID"] == query_id, "Status"] = "Closed"
-            #             edited_df.loc[edited_df["Query ID"] == query_id, "Closed Date"] = pd.Timestamp.now().strftime("%d-%m-%Y %I:%M %p")
-
-            #             st.success(f"Query {query_id} marked as Closed!")
-
-            #             # OPTIONAL: Save changes back to your database here
-            #             # update_query_status_in_db(query_id, "Closed")
-
-            #             # st.rerun()
-            #     else:
-            #         st.write("✅ This query is already **Closed**.")
-            # else:
-            #     st.error("No 'Select' column found in the returned DataFrame. See the column list above.")
-
     
             # if searchInput==None or searchInput=='':
             #     st.dataframe(df, hide_index=True)
@@ -169,6 +168,7 @@ def supportQueryList(st, updateQueryStatus, pd):
     with tab2:
         col1, col2, col3 = st.columns([1, 35, 1])      
         with col2:
+            selected_option = "All"
             st.dataframe(df_history, hide_index=True)
         
 def color_status(val):
