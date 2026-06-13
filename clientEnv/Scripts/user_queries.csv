@@ -1,0 +1,6 @@
+query_id,client_email,client_mobile,query_heading,query_description,status,date_raised,date_closed
+Q0001,saran@gmail.com,6638686049,Internet Connectivity,No internet for past 3 days,Open,26-11-2025,
+Q0002,rajesh@gmail.com,6369365581,Voice Service,Noise in the phone call line,Open,22-11-2025,
+Q0003,seetha@gmail.com,2686615523,OTT Diagnosis,3 OTT apps not able to login,Open,18-11-2025,
+Q0004,saran@gmail.com,4753393384,Wi-Fi coverage,more than 2 devices couldn't able to connect,Open,25-11-2025,
+Q0005,venky@gmail.com,8523755943,Internet Connectivity,Icons not intuitive.,Open,19-11-2025,

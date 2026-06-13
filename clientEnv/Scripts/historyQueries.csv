@@ -1,0 +1,60 @@
+query_id,client_email,client_mobile,query_heading,query_description,status,date_raised,date_closed
+Q0001,rajesh@gmail.com,6638686049,Voice Service,Noise in the phone call line,Closed,2025-02-26,2025-02-27
+Q0002,rajesh@gmail.com,6369365581,Voice Service,Noise in the phone call line,Closed,2025-07-22,2025-08-01
+Q0003,saran@gmail.com,2686615523,OTT Diagnosis,OTT apps login issue,Closed,18-06-2025,19-06-2025
+Q0004,saran@gmail.com,4753393384,Wi-Fi coverage,Wi-Fi signal strength is weak,Closed,2025-02-25,2025-03-07
+Q0005,rajesh@gmail.com,8523755943,UI Feedback,Icons not intuitive.,Closed,19-06-2025,20-06-2025
+Q0006,rajesh@gmail.com,5114031913,Technical Support,Modrem is not working. Software issue may be,Closed,2025-05-12,2025-05-26
+Q0007,venky@gmail.com,5120344433,OTT Diagnosis,OTT app subscription issue,Closed,05-04-2025,12-04-2025
+Q0008,rajesh@gmail.com,9214400119,Internet Connectivity,No internet for past 3 days,Closed,10-06-2025,12-06-2025
+Q0009,rajesh@gmail.com,3033595411,Payment Failure,Monthly payment failure,Closed,2025-07-23,2025-07-24
+Q0010,rajesh@gmail.com,4191042037,Wi-Fi coverage,Wi-Fi is not working properly,Closed,2025-06-18,2025-06-20
+Q0011,rajesh@gmail.com,9734118945,Subscription Cancellation,Cancel option not visible in settings.,Closed,15-06-2025,16-06-2025
+Q0012,seetha@gmail.com,3879415680,Wi-Fi coverage,More than 3 connections is not allowing,Closed,2025-05-19,2025-05-21
+Q0013,rajesh@gmail.com,5617939417,Wi-Fi coverage,Need extra coverage with booster,Closed,2025-03-16,2025-03-29
+Q0014,seetha@gmail.com,3070184682,Technical Support,Modrem software faulty,Closed,2025-05-28,2025-06-04
+Q0015,seetha@gmail.com,3917521611,Internet Connectivity,Icons not intuitive.,Closed,11-04-2025,22-04-2025
+Q0016,seetha@gmail.com,4905937145,Login Issue,Cannot log in on mobile app.,Closed,2025-07-15,2025-07-17
+Q0017,seetha@gmail.com,9995378276,Payment Failure,Need help with failed subscription payment.,Closed,2025-05-29,2025-06-01
+Q0018,seetha@gmail.com,2206017563,Subscription Cancellation,Want refund for unused days.,Closed,27-05-2025,29-05-2025
+Q0019,seetha@gmail.com,4538801808,Technical Support,Cannot access to mobile app for payment settlement,Closed,2025-02-19,2025-02-20
+Q0020,seetha@gmail.com,5610385254,Payment Failure,Payment shows success but app locked.,Closed,2025-04-19,2025-04-20
+Q0021,rajesh@gmail.com,3203920567,Wi-Fi coverage,only few Wi-Fi connections are allowed,Closed,2025-05-24,2025-06-06
+Q0022,venky@gmail.com,1759888188,Technical Support,Live chat not launching.,Closed,2025-05-29,2025-05-30
+Q0023,venky@gmail.com,1235104093,Wi-Fi coverage,need to increase the no of wi-fi connections,Closed,2025-04-26,2025-04-29
+Q0024,rajesh@gmail.com,4288812024,OTT Diagnosis,Few OTT app is not working,Closed,10-02-2025,13-02-2025
+Q0025,venky@gmail.com,8179811997,Voice Service,Noise in the phone call line,Closed,2025-04-01,2025-04-13
+Q0026,venky@gmail.com,9428958105,Technical Support,Slow performance during peak hours.,Closed,2025-05-28,2025-06-01
+Q0027,venky@gmail.com,4441447695,Subscription Cancellation,App locked after cancellation.,Closed,17-03-2025,19-03-2025
+Q0028,venky@gmail.com,6460794942,Technical Support,Download button is inactive.,Closed,2025-07-03,2025-07-05
+Q0029,venky@gmail.com,9777668613,UI Feedback,Buttons overlap on smaller screens.,Closed,23-04-2025,03-05-2025
+Q0030,venky@gmail.com,1304088049,Internet Connectivity,Unable to access to web pages,Closed,18-07-2025,25-07-2025
+Q0031,venky@gmail.com,4915591174,Voice Service,Frequent Disconnection for phone calls,Closed,2025-06-07,2025-06-10
+Q0032,venky@gmail.com,818425068,Voice Service,unable to receive phone calls,Closed,2025-03-19,2025-03-20
+Q0033,rajesh@gmail.com,4162709388,Subscription Cancellation,Wrong account cancelled.,Closed,15-06-2025,19-06-2025
+Q0034,rajesh@gmail.com,4779789604,Payment Failure,Payment failed due to card error.,Closed,2025-04-01,2025-04-08
+Q0035,rajesh@gmail.com,4530781588,Technical Support,Freezing during screen load.,Closed,2025-06-25,2025-06-30
+Q0036,rajesh@gmail.com,242959217,Wi-Fi coverage,need to config router for wi-fi configuration,Closed,2025-07-16,2025-07-17
+Q0037,rajesh@gmail.com,2099154981,Wi-Fi coverage,wi-fi coverage issue,Closed,2025-06-05,2025-06-11
+Q0038,rajesh@gmail.com,9058805245,UI Feedback,Dark mode missing in login.,Closed,19-07-2025,26-07-2025
+Q0039,rajesh@gmail.com,9634484656,Technical Support,Download button is inactive.,Closed,2025-04-07,2025-04-09
+Q0040,saran@gmail.com,2052334703,Payment Failure,Charged twice for one payment.,Closed,2025-07-20,2025-07-25
+Q0041,saran@gmail.com,9722727167,Wi-Fi coverage,Need wi-fi connection is not able to display and connect,Closed,2025-06-24,2025-06-25
+Q0042,saran@gmail.com,1283541419,Wi-Fi coverage,Need to include wi-fi connection mode by resettng,Closed,2025-02-23,2025-02-27
+Q0043,saran@gmail.com,6654327583,Voice Service,unable to make calls,Closed,2025-06-07,2025-06-08
+Q0044,saran@gmail.com,3184013731,Wi-Fi coverage,Wi-Fi is not working properly,Closed,2025-05-26,2025-06-12
+Q0045,saran@gmail.com,5292505993,UI Feedback,Filter section takes too much space.,Closed,06-04-2025,08-04-2025
+Q0046,saran@gmail.com,8401095516,Wi-Fi coverage,Need to check wi-fi coverage strength,Closed,2025-04-10,2025-04-11
+Q0047,saran@gmail.com,689770710,UI Feedback,Color scheme hard to read in sunlight.,Closed,22-02-2025,27-02-2025
+Q0048,venky@gmail.com,7530165333,OTT Diagnosis,Amazon Prime app is not working properly,Closed,09-04-2025,14-04-2025
+Q0049,saran@gmail.com,5625215460,Technical Support,White screen on startup.,Closed,2025-02-13,2025-02-21
+Q0050,saran@gmail.com,8172065417,Login Issue,Forgot my password and reset is not working.,Closed,2025-02-17,2025-03-02
+Q0051,rajesh@gmail.com,9180520966,Subscription Cancellation,Auto-renew not turned off.,Closed,12-04-2025,19-04-2025
+Q0052,rajesh@gmail.com,2094516406,UI Feedback,Color scheme hard to read in sunlight.,Closed,24-07-2025,08-08-2025
+Q0053,venky@gmail.com,7586052409,Technical Support,Settings not saving properly.,Closed,2025-02-11,2025-02-17
+Q0054,venky@gmail.com,941377753,Voice Service,Frequent Disconnection for phone calls,Closed,2025-03-17,2025-03-23
+Q0055,seetha@gmail.com,47574843,Wi-Fi coverage,Time range in export is incorrect.,Closed,2025-07-14,2025-07-17
+Q0056,venky@gmail.com,2634161688,Subscription Cancellation,Received cancellation email but charged again.,Closed,15-03-2025,18-03-2025
+Q0057,venky@gmail.com,2150242565,Internet Connectivity,No internet for past 3 days,Closed,29-04-2025,10-05-2025
+Q0058,venky@gmail.com,926809499,Subscription Cancellation,App locked after cancellation.,Closed,19-06-2025,20-06-2025
+Q0059,venky@gmail.com,7930553343,Voice Service,unclear voice in phone,Closed,2025-02-08,2025-02-10
